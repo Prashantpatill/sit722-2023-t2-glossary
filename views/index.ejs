@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <style>
+      table {
+        border-collapse: collapse; 
+        width: 100%;
+        border: 3px solid #000000; 
+      }
+    
+      th, td {
+        border: 3px solid #000000; 
+        padding: 8px;
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+   <h1><b><u><%= title %></u></b></h1>
+   <h2><b><%= subtitle %></b></h2>
+    <table> 
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Term</th>
+          <th>Description</th>
+          <th>Reference</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% data.forEach(function(item) { %>
+          <tr>
+            <td ><%= item.id %></td>
+            <td ><%= item.term %></td>
+            <td><%= item.definition %></td>
+            <td><%= item.reference %></td>
+          </tr>
+        <% }); %>
+      </tbody>
+    </table>
+  </body>
+</html>
