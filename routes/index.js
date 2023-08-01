@@ -64,6 +64,18 @@ function definifunc()
     term:"Techinal Debt",
     definition:'It is a result when the development team expedites delivering a peice of code which needs to be refactored later on , in other words priorotizing speed delivery over a perfect peice of code  ',
     reference:'www.productplan.com. (n.d.). What Is Technical Debt? | Definition and Examples. [online] Available at: https://www.productplan.com/glossary/technical-debt/.'
+  },
+  {
+    id:11,
+    term:"Team Capacity",
+    definition:'It is a result when the development team expedites delivering a peice of code which needs to be refactored later on , in other words priorotizing speed delivery over a perfect peice of code  ',
+    reference:'www.productplan.com. (n.d.). What Is Technical Debt? | Definition and Examples. [online] Available at: https://www.productplan.com/glossary/technical-debt/.'
+  },
+  {
+    id:12,
+    term:"",
+    definition:'It is a result when the development team expedites delivering a peice of code which needs to be refactored later on , in other words priorotizing speed delivery over a perfect peice of code  ',
+    reference:'www.productplan.com. (n.d.). What Is Technical Debt? | Definition and Examples. [online] Available at: https://www.productplan.com/glossary/technical-debt/.'
   }
 ];
 }
