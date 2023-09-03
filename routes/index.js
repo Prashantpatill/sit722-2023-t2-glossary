@@ -124,6 +124,66 @@ function definifunc()
     term:"Continuous Integration",
     definition:'It is a software engineering [ractice where the developer working on a feture trie to merge his code to the main branc as often as possible . The changes are validated by creating a build and running a automated tests agains that build',
     reference:'Atlassian (2019). Continuous integration vs. continuous delivery vs. continuous deployment. [online] Atlassian. Available at: https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment.'
+  },
+  {
+    id: 21,
+    term: "Registry",
+    definition: 'A Docker registry is a system for storing and distributing Docker images with specific names.',
+    reference: 'GeeksforGeeks. (2022). What is Docker Registry? [online] Available at: https://www.geeksforgeeks.org/what-is-docker-registry/.'
+  },
+  {
+    id: 22,
+    term: "Container",
+    definition: 'A Docker container is a lightweight, standalone package that includes all the necessary components to run an application, enabling consistent and portable deployment across different environments',
+    reference: 'Docker Documentation. (2020). Glossary. [online] Available at: https://docs.docker.com/glossary/.'
+  },
+  {
+    id: 23,
+    term: "Rollback",
+    definition: 'It is the process of returning a machine to its previous state.',
+    reference: 'www.computerhope.com. (n.d.). What is a Rollback? [online] Available at: https://www.computerhope.com/jargon/r/rollback.htm.'
+  },
+  {
+    id: 24,
+    term: "Backword Compatibality",
+    definition: 'Backward compatibility means that when you update or upgrade a software or system to a newer version, it should still be able to run older stuff without causing problems, so you dont have to start from scratch.',
+    reference: 'www.computerhope.com. (n.d.). What is Backward Compatible? [online] Available at: https://www.computerhope.com/jargon/b/backcomp.htm'
+  },
+  {
+    id: 25,
+    term: "Virtual Machine",
+    definition: 'A virtual machine is like a computer within your computer. Its a software-based environment that lets you run multiple separate operating systems and applications on the same physical computer, as if they were individual computers themselves',
+    reference: 'VMware. (2022). What is a Virtual Machine? | VMware Glossary. [online] Available at: https://www.vmware.com/au/topics/glossary/content/virtual-machine.html.'
+  },
+  {
+    id: 26,
+    term: "Docker Image",
+    definition: 'A Docker image is similar to a snapshot of your computer setup. Its a prepackaged and portable snapshot of an application, along with all its dependencies and configuration, ready to run consistently on different computers or environments. Just like you can take that snapshot and use it on another computer, Docker images let you run your application in the same way on various systems, making deployment and scaling easier and more predictable',
+    reference: 'Docker Documentation. (2020). Glossary. [online] Available at: https://docs.docker.com/glossary/.'
+  },
+  {
+    id: 27,
+    term: "Unit Test",
+    definition: 'Unit testing is like checking the individual pieces of a puzzle to make sure each one fits perfectly before putting the whole puzzle together. In software, it means testing small parts of a program to make sure they work correctly on their own, helping ensure the entire program will work smoothly when everything is combined',
+    reference: 'Smartbear (2022). What Is Unit Testing? [online] smartbear.com. Available at: https://smartbear.com/learn/automated-testing/what-is-unit-testing/.'
+  },
+  {
+    id: 28,
+    term: "Regression test",
+    definition: 'Regression testing is like double-checking your work after making changes to a document. It involves retesting the parts of a software program that were already working well to make sure they still work correctly after new updates or changes have been made. This helps ensure that recent changes havent unintentionally broken any previously working features',
+    reference: 'katalon.com. (n.d.). What is Regression Testing? Definition, Tools & How to Get Started. [online] Available at: https://katalon.com/resources-center/blog/regression-testing.'
+  },
+  {
+    id: 29,
+    term: "Integratiopn Testing",
+    definition: 'Integration testing is like checking how different parts of a machine work together. In software, its about testing how various components or modules of a program interact with each other to ensure they collaborate correctly and that the entire system functions smoothly when integrated',
+    reference: 'Terra, J. (2022). What is Integration Testing? Examples, Challenges, and Approaches | Simplilearn. [online] Simplilearn.com. Available at: https://www.simplilearn.com/what-is-integration-testing-examples-challenges-approaches-article.'
+  },
+  {
+    id: 30,
+    term: "Smoke Testing ",
+    definition: 'Smoke testing is like quickly sniffing a dish to see if its cooked before diving into a meal. In software, its a simple, preliminary test to make sure the basic functions of a program are working correctly after changes or updates have been made. Its like a quick check to catch any obvious issues before going deeper into more detailed testing',
+    reference: 'www.guru99.com. (n.d.). What is Smoke Testing? How to do with EXAMPLES. [online] Available at: https://www.guru99.com/smoke-testing.html.'
   }
 ];
 }
