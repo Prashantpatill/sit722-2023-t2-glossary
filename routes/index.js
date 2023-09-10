@@ -184,7 +184,67 @@ function definifunc()
     term: "Smoke Testing ",
     definition: 'Smoke testing is like quickly sniffing a dish to see if its cooked before diving into a meal. In software, its a simple, preliminary test to make sure the basic functions of a program are working correctly after changes or updates have been made. Its like a quick check to catch any obvious issues before going deeper into more detailed testing',
     reference: 'www.guru99.com. (n.d.). What is Smoke Testing? How to do with EXAMPLES. [online] Available at: https://www.guru99.com/smoke-testing.html.'
-  }
+  },
+  {
+    id: 31,
+    term: "Docker Compose",
+    definition: "It is tool that is used to define and run multi container Docker applications",
+    reference: "Docker Documentation. (2022). Use Docker Compose. [online] Available at: https://docs.docker.com/get-started/08_using_compose/#:~:text=Docker%20Compose%20is%20a%20tool."
+    },
+    {
+    id: 32,
+    term: "Docker Hub",
+    definition: "It is a cloud based registry service used for building and sharing docker containers",
+    reference: "www.docker.com. (2021). Docker Hub Container Registry | Docker. [online] Available at: https://www.docker.com/products/docker-hub/#:~:text=Docker%20Hub%20is%20a%20collaboration."
+    },
+    {
+    id: 33,
+    term: "Container Orchestration",
+    definition: "It is the process where we automate deploying,maintaining scaling and networking of containers",
+    reference: "www.redhat.com. (n.d.). What is container orchestration? [online] Available at: https://www.redhat.com/en/topics/containers/what-is-container-orchestration."
+    },
+    {
+    id: 34,
+    term: "Pod",
+    definition: "It is the smallest deployable unit in kubernetes.I represents one or more containers that are scheduled together.",
+    reference: "www.redhat.com. (n.d.). What is a Kubernetes pod? [online] Available at: https://www.redhat.com/en/topics/containers/what-is-kubernetes-pod#:~:text=A%20Kubernetes%20pod%20is%20a."
+    },  
+    {
+    id: 35,
+    term: "Node",
+    definition: "Nodes in a Kubernetes Cluster are the physical servers or virtual machines (VMs) that make up the infrastructure. They are considered interchangeable and are usually managed as a collective entity rather than individually, except for maintenance purposes",
+    reference: "Kubernetes. (n.d.). Viewing Pods and Nodes. [online] Available at: https://kubernetes.io/docs/tutorials/kubernetes-basics/explore/explore-intro/#:~:text=A%20Node%20is%20a%20worker."
+    }, 
+    {
+    id: 36,
+    term: "Service",
+    definition: "A Kubernetes service acts as a stable entry point to a set of pods, providing a consistent way for applications to communicate with them. It abstracts the network details, ensuring reliable access even when pods or nodes change, facilitating load balancing and seamless service discovery within a Kubernetes cluster",
+    reference: "Kubernetes. (n.d.). Service. [online] Available at: https://kubernetes.io/docs/concepts/services-networking/service/."
+    }, 
+    {
+    id: 37,
+    term: "Ingress",
+    definition: "In Kubernetes, an Ingress is an API object that manages external access to services within a cluster. It serves as a configuration that allows for the routing of external traffic to different services based on defined rules, providing a way to expose multiple services under a single domain or IP address.",
+    reference: "Datawire.io (n.d.). Kubernetes Ingress - Everything you Need to Know. [online] www.getambassador.io. Available at: https://www.getambassador.io/learn/kubernetes-ingress#:~:text=Kubernetes%20ingress%20is%20a%20collection."
+    },
+    {
+    id: 38,
+    term: "StatefulSet",
+    definition: "A StatefulSet in Kubernetes is a grouping of pods, each having its own distinct and unchanging hostname and identification. It is specifically tailored for running stateful applications, ensuring that data is stored persistently even if the pods are restarted or moved to different environments",
+    reference: "Komodor. (n.d.). What is Kubernetes StatefulSets? [online] Available at: https://komodor.com/learn/statefulset-basics-and-how-to-debug-a-statefulset."
+    },   
+    {
+    id: 39,
+    term: "Config Map",
+    definition: "ConfigMap is an API object used to store non-confidential data in key-value pairs",
+    reference: "www.redhat.com. (n.d.). What is a Kubernetes cluster? [online] Available at: https://www.redhat.com/en/topics/containers/what-is-a-kubernetes-cluster."
+    },    
+    {
+    id: 40,
+    term: "Cluster",
+    definition: "It is a set of nodes that run containerized applications managed by Kubernetes",
+    reference: "www.redhat.com. (n.d.). What is a Kubernetes cluster? [online] Available at: https://www.redhat.com/en/topics/containers/what-is-a-kubernetes-cluster."
+    }
 ];
 }
 
