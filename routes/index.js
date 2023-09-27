@@ -244,7 +244,69 @@ function definifunc()
     term: "Cluster",
     definition: "It is a set of nodes that run containerized applications managed by Kubernetes",
     reference: "www.redhat.com. (n.d.). What is a Kubernetes cluster? [online] Available at: https://www.redhat.com/en/topics/containers/what-is-a-kubernetes-cluster."
-    }
+    },
+    {
+      id: 41,
+      term: "Hostpath",
+      definition: "HostPath is a Kubernetes volume type that allows a Pod to use the file system of the host machine directly, enabling containers to access files on the host system",
+      reference: "Kumar, R. (2019). Kubernetes volume hostPath explained with examples. [online] DevOpsSchool.com. Available at: https://www.devopsschool.com/blog/kubernetes-volume-hostpath-explained-with-examples."
+  },
+  {
+      id: 42,
+      term: "Persistent Volume",
+      definition: "A Persistent Volume (PV) in Kubernetes refers to a storage resource at the cluster level, enabling the separation of storage from individual Pods and guaranteeing data permanence even when containers are restarted or Pods are rescheduled",
+      reference: "Spacelift. (n.d.). Kubernetes Persistent Volumes - Tutorial and Examples. [online] Available at: https://spacelift.io/blog/kubernetes-persistent-volumes."
+  },
+  {
+      id: 43,
+      term: "Test cases",
+      definition: "Test cases are specific conditions, criteria, or sets of steps that are systematically designed to determine whether a software application, system, or component functions as intended, ensuring its quality and correctness",
+      reference: "Applause. (n.d.). What Is a Test Case? Examples, Types and Format. [online] Available at: https://www.applause.com/blog/what-is-a-test-case-examples-types-format."
+  },
+  {
+      id: 44,
+      term: "Load Balancer",
+      definition: " Load Balancer is like a traffic cop for your applications in a cluster, making sure they each get their fair share of visitors by evenly spreading out the incoming requests across different servers, so no one server gets too overloaded",
+      reference: "Spacelift. (n.d.). What is Kubernetes Load Balancer? Configuration & Examples. [online] Available at: https://spacelift.io/blog/kubernetes-load-balancer."
+  },
+  {
+      id: 45,
+      term: "Scalability",
+      definition: " scalability refers to the system's capacity to smoothly handle an increasing number of applications and users by seamlessly adding more resources or nodes to the cluster, ensuring responsive performance as demands grow",
+      reference: "Simplilearn (2022). What is Cloud Scalability? | Simplilearn. [online] Simplilearn.com. Available at: https://www.simplilearn.com/what-is-cloud-scalability-article."
+  },
+  {
+      id: 46,
+      term: "Horizontal Scaling",
+      definition: "Horizontal scaling is like adding more identical coaches to a train, allowing the system to handle increased traffic by distributing the load across multiple instances of the same application, ensuring smoother and more efficient performance",
+      reference: "CloudZero (n.d.). Horizontal Vs. Vertical Scaling: How Do They Compare? [online] www.cloudzero.com. Available at: https://www.cloudzero.com/blog/horizontal-vs-vertical-scaling#:~:text=Horizontal%20scaling%20(aka%20scaling%20out."
+  },
+  {
+      id: 47,
+      term: "Vertical Scaling",
+      definition: "Vertical scaling in Kubernetes is like upgrading your computer's parts (like getting a faster processor or more memory) to make it more powerful and capable of handling bigger tasks, without adding more computers or nodes",
+      reference: "CloudZero (n.d.). Horizontal Vs. Vertical Scaling: How Do They Compare? [online] www.cloudzero.com. Available at: https://www.cloudzero.com/blog/horizontal-vs-vertical-scaling#:~:text=Horizontal%20scaling%20(aka%20scaling%20out."
+  },
+  {
+      id: 48,
+      term: "Monitoring",
+      definition: "Monitoring in Kubernetes is like having a watchful guardian that constantly checks the pulse of your applications and system, giving you instant updates on how they're doing, so you can fix any hiccups and keep everything running smoothly.",
+      reference: "https://www.vmware.com/au/topics/glossary/content/kubernetes-monitoring.html#:~:text=Kubernetes%20monitoring%20is%20a%20form,memory%2C%20CPU%2C%20and%20storage."
+  },
+  {
+      id: 49,
+      term: "Alerting",
+      definition: "Alerting in Kubernetes is like having a virtual assistant that notifies you immediately when something goes wrong with your applications or system, ensuring you're aware of any issues and can take action promptly to keep things on trac",
+      reference: "Ali, A.I. (2019). Alerting in Kubernetes. [online] Stakater. Available at: https://medium.com/stakater/alerting-in-kubernetes-5df357c9b036."
+  },
+  {
+      id: 50,
+      term: "Incident Response",
+      definition: "Incident Response in Kubernetes is like having a well-organized action plan for when unexpected problems arise with your applications or system, providing clear steps to detect, respond to, and resolve issues efficiently to minimize any disruptions in service",
+      reference: "0xffccdd (2023). Kubernetes Incident Response. [online] Medium. Available at: https://medium.com/@cloud_tips/kubernetes-incident-response-94daac6d7a2b."
+  }
+     
+    
 ];
 }
 
